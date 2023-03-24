@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form actio="ação a ser executada">
+        <fieldset>
+            <legend>PRODUTO</legend>
+            <label for="iproduto">Produto:</label>
+            <input id="iproduto" name="emproduto" type="produto">
+            <br>
+            <br>
+            <label for="datadecadastro">Data de cadastro</label>
+            <input id="datadecadastro" name="datadecadastro" type="date">
+            <br>
+            <br>
+            <label for="icategoria">Categoria</label>
+            <select name="slcategoria" id="icategoria">
+                <option value="B"> </option>
+                <option value="E">Eletrônico</option>
+                <option value="M">Móveis</option>
+            </select>
+            <br>
+            <br>
+            <label for="idescri">Descrição do produto</label>
+            <br>
+            <textarea name="txtadescri" id="idescri" cols="40" rows="10"></textarea>
+            <br>
+            <br>
+            <label>Tipo:</label>
+            <br>
+            <input type="radio" name="rtipo" id="inovo" value="N">
+            <lael for="itipo">Novo</lael>
+            <input type="radio" name="rtipo" id="iusado" value="U">
+            <lael for="iusuario">Usado</lael>
+            <br>
+            <br>
+            <form>
+                <label for="vol">Sua avaliação (0 a 10):</label>
+                <br>
+                <input type="range" id="ava" name="ava" min="0" max="10">
+            </form>
+            <br>
+            <br>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
